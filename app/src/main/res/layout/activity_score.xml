@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#5CDB94"
+    android:orientation="vertical"
+    tools:context=".Score">
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quiz Completed"
+        android:textSize="50dp"
+        android:textColor="#EDF5E0"
+        android:textStyle="bold|italic"
+        />
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TextView
+            android:textColor="#05396B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Questions:"
+            android:textSize="30dp"/>
+        <TextView
+            android:textColor="#EDF5E0"
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:id="@+id/tqns"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TextView
+
+            android:textColor="#05396B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scored"
+        android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textStyle="bold"
+            android:layout_marginLeft="75dp"
+            android:gravity="center"/>
+        <TextView
+            android:textColor="#EDF5E0"
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:id="@+id/score"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/greet"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back To Menu"
+        android:id="@+id/hmenu"
+        />
+</LinearLayout>
